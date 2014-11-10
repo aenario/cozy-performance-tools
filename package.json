@@ -1,0 +1,21 @@
+{
+  "name": "cozy-performance-tools",
+  "version": "0.0.1",
+  "engines": [
+    "node = 0.10.x"
+  ],
+  "description": "Performance tools for Cozycloud",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cozy/cozy-performance-tools.git"
+  },
+  "main": "main.coffee",
+  "bin": {
+    "cozy-perf": "binary.coffee"
+  },
+  "dependencies": {
+    "bluebird": "2.3.2",
+    "commander": "^2.5.0"
+  }
+}
