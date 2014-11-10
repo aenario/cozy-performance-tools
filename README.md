@@ -8,6 +8,8 @@ Monitor DS stack
 apt-get install gnuplot
 ```
 
+# Usage
+
 ```
 npm install -g cozy-performance-tools
 cozy-perf start -o test-name
